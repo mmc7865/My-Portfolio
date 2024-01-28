@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dummy-for-Portfolio</title>
+    <link rel="stylesheet" class="link-primary" href="styles.css">
 </head>
 <body>
     <h1>Mujeeb's component library</h1>
@@ -22,18 +23,30 @@
     <hr>
 
     <h2>@container</h2>
-    <h3>default container</h3>
-    <p>This is my default container</p>
-    <h3>center container</h3>
-    <p>This is my center container</p>
-    <h3>right container</h3>
-    <p>This is my right container</p>
+    <div class="container default-container ">
+        <h3>default container</h3>
+        <p>Dummy text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni debitis, eligendi harum incidunt exercitationem officia architecto ipsa. Sit nam rerum animi sapiente ad assumenda cumque incidunt illum veniam quo? Fuga consequuntur qui soluta quisquam</p>
+    </div>
+    <div class="container left-container ">
+        <h3>left container</h3>
+        <p>Dummy text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni debitis, eligendi harum incidunt exercitationem officia architecto ipsa. Sit nam rerum animi sapiente ad assumenda cumque incidunt illum veniam quo? Fuga consequuntur qui soluta quisquam</p>
+    </div>
+    <div class="container center-container">
+        <h3>center container</h3>
+        <p>Dummy text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni debitis, eligendi harum incidunt exercitationem officia architecto ipsa. Sit nam rerum animi sapiente ad assumenda cumque incidunt illum veniam quo? Fuga consequuntur qui soluta quisquam</p>
+    </div>
+    <div class="container right-container">
+        <h3>right container</h3>
+        <p>Dummy text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni debitis, eligendi harum incidunt exercitationem officia architecto ipsa. Sit nam rerum animi sapiente ad assumenda cumque incidunt illum veniam quo? Fuga consequuntur qui soluta quisquam.</p>
+    </div>
     <hr>
 
-    <h2>@links</h2>
-    <a href="/">Primary link</a>
-    <a href="/">Secondry link</a>
-    <hr>
+    <div class="links">
+        <h2>@links</h2>
+        <a class="link-primary" href="/">Primary link</a>
+        <a class="link-secondry" href="/">Secondry link</a>
+    </div>
+        <hr>
 
 
 
@@ -62,11 +75,11 @@
 
 
     <h2>@Navigation</h2>
-    <div>Logo</div>
+    <div class="logo">imWebdevloper</div>
     <ul>
-        <li><a href="/">home</a></li>
-        <li><a href="/">products</a></li>
-        <li><a href="/">about</a></li>
+        <li><a class="link-primary" href="/">home</a></li>
+        <li><a class="link-primary" href="/">products</a></li>
+        <li><a class="link-primary" href="/">about</a></li>
     </ul>
     <hr>
 
@@ -88,7 +101,7 @@
     <section>
         <h2>heading inside section</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem eaque officiis vel, pariatur, perspiciatis ullam deserunt recusandae non dicta perferendis quia dolor quo magnam!</p>
-        <a href="/">Primary Button</a>
+        <a class="link-primary" href="/">Primary Button</a>
     </section>
 
     <h3>an off white section</h3>
@@ -96,7 +109,7 @@
         <h2>heading inside the off white section</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, aut reprehenderit! Itaque sapiente natus iste, consequuntur quos vitae? Illum quas repellat corporis enim fugit.</p>
          
-        <a href="/">Primary Button</a>
+        <a class="link-primary" href="/">Primary Button</a>
         
     </section>
     <hr>
