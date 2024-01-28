@@ -15,21 +15,22 @@ body {
 /* @containers */
 .container{
     margin: 1rem;
-    border: 2px solid red;
     padding: 2rem;
 
+}
+.container h3{
+    text-align: center;
 }
 
 .left-container{
     max-width: 30rem;
-    border: 2px solid red;
+   
 }
 
 .center-container{
-    text-align: center;
     margin: auto;
     max-width: 30rem;
-    border: 2px solid red;
+   
 }
 .right-container{
     float: right;
@@ -68,7 +69,7 @@ h2{
     padding: 1rem;
 }
 .logo{
-    border: 2px solid red;
+   
     display: inline;
     
 }
@@ -78,7 +79,7 @@ h2{
     cursor: pointer;;
 }
 .navbar{
-    border: 2px solid red;
+ 
     display: inline;
     margin-left: 20rem;
     
@@ -113,4 +114,19 @@ header h1 span{
 }
 
 /* @section */
+.sections{
+padding: 2rem;
+    
+}
+.sections h2{
+    text-align: center;
+    
+}
+.ow{
+    background-color: var(--secondry-color);
+}
+section .center{
+      max-width: 600px;
+      margin: auto;
+}
 
