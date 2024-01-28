@@ -66,7 +66,8 @@ h2{
 /* @Navigation */
 .navigation{
     background-color: var(--secondry-color);
-    padding: 1rem;
+    padding: 3rem;
+    border-top-left-radius: 2rem;
 }
 .logo{
    
@@ -130,3 +131,18 @@ section .center{
       margin: auto;
 }
 
+/* @footer */
+footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--secondry-color);
+    padding: 2rem;
+    border-bottom-right-radius: 2rem;
+}    
+
+.footer .social-links{
+list-style: none;
+display: inline;
+padding: 2rem;
+cursor: pointer;
+}
