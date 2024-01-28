@@ -3,7 +3,7 @@
 
 :root {
     --primary-color: #27272a;
-    --secondry-color: #f4f4f5;
+    --secondry-color: #a1a1aa;
 
 }
 body {
@@ -63,7 +63,54 @@ h2{
 }
 
 /* @Navigation */
-.logo{
-    img
+.navigation{
+    background-color: var(--secondry-color);
+    padding: 1rem;
 }
+.logo{
+    border: 2px solid red;
+    display: inline;
+    
+}
+.logo a{
+    text-decoration: none;
+    color: var(--primary-color);
+    cursor: pointer;;
+}
+.navbar{
+    border: 2px solid red;
+    display: inline;
+    margin-left: 20rem;
+    
+}
+.navbar li{
+    list-style: none;
+    display: inline;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 3rem;
+    margin: 2rem;
+    color: var(--primary-color);
+
+}
+
+/* @header */
+img{
+    display: block;
+    border-radius: 50%;
+    max-width: 20rem;
+    margin: auto;
+    
+}
+header h1{
+    text-align: center;
+    color: var(--primary-color);
+
+}
+header h1 span{
+    color: var(--secondry-color);
+}
+
+/* @section */
 
