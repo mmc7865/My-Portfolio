@@ -7,7 +7,7 @@
 
 }
 body {
-    margin: 0px;
+    margin: 40px;
     padding: 0px;
 }
 
@@ -66,36 +66,30 @@ h2{
 /* @Navigation */
 .navigation{
     background-color: var(--secondry-color);
-    padding: 3rem;
-    border-top-left-radius: 2rem;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }
-.logo{
-   
-    display: inline;
-    
-}
-.logo a{
-    text-decoration: none;
-    color: var(--primary-color);
-    cursor: pointer;;
+.navigation .logo{
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 .navbar{
- 
-    display: inline;
-    margin-left: 20rem;
-    
+    text-align: right;
 }
 .navbar li{
-    list-style: none;
     display: inline;
+
 }
 .navbar li a{
     text-decoration: none;
-    padding: 3rem;
-    margin: 2rem;
     color: var(--primary-color);
-
+    text-align: right;
+    padding: 3rem;
 }
+.navigation .link-active{
+    font-weight: bold;
+}
+
 
 /* @header */
 img{
@@ -103,8 +97,11 @@ img{
     border-radius: 50%;
     max-width: 20rem;
     margin: auto;
+    margin-top: 3rem;
+    box-shadow: 0px 1px 17px 9px var(--secondry-color);
     
 }
+
 header h1{
     text-align: center;
     color: var(--primary-color);
@@ -134,15 +131,18 @@ section .center{
 /* @footer */
 footer{
     text-align: center;
-    background-color: var(--primary-color);
-    color: var(--secondry-color);
+    background-color: var(--secondry-color);
+    color: var(--primary-color);
     padding: 2rem;
-    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
 }    
 
 .footer .social-links{
 list-style: none;
 display: inline;
-padding: 2rem;
-cursor: pointer;
+padding: 1rem;
+}
+.social-links a{
+    text-decoration: none;
+    color: var(--primary-color);
 }
