@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 
 
 
@@ -7,8 +9,9 @@
 
 }
 body {
-    margin: 40px;
+    margin: 0px;
     padding: 0px;
+    font-family: 'Roboto Slab', serif;
 }
 
 
@@ -47,10 +50,11 @@ h2{
 
 
 /* @links */
-.links a{
+.center a{
     text-decoration: none;
-    padding: 1rem;
-    margin: 3rem 1rem;
+    padding: .5rem;
+    margin: auto;
+    
 }
 .link-primary{
     background-color: var(--primary-color);
@@ -67,11 +71,12 @@ h2{
 .navigation{
     background-color: var(--secondry-color);
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 3rem;
 }
 .navigation .logo{
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
 }
 .navbar{
     text-align: right;
@@ -84,7 +89,10 @@ h2{
     text-decoration: none;
     color: var(--primary-color);
     text-align: right;
-    padding: 3rem;
+    padding: 3rem 3rem 3rem 0rem;
+}
+.navbar li a:hover{
+    font-weight: bold;
 }
 .navigation .link-active{
     font-weight: bold;
@@ -105,6 +113,7 @@ img{
 header h1{
     text-align: center;
     color: var(--primary-color);
+    margin-top: 4rem;
 
 }
 header h1 span{
@@ -122,11 +131,19 @@ padding: 2rem;
 }
 .ow{
     background-color: var(--secondry-color);
+    border-radius: 1rem;
+    margin: 90px;
+   
 }
+.white{
+    border-radius: 1rem;
+    margin: 90px;
+}
+
 section .center{
-      max-width: 600px;
+      max-width: 700px;
       margin: auto;
-}
+      }
 
 /* @footer */
 footer{
@@ -134,15 +151,22 @@ footer{
     background-color: var(--secondry-color);
     color: var(--primary-color);
     padding: 2rem;
-    border-top-right-radius: 2rem;
+    border-top-right-radius: 3rem;
 }    
 
 .footer .social-links{
 list-style: none;
 display: inline;
-padding: 1rem;
+
+
 }
 .social-links a{
     text-decoration: none;
     color: var(--primary-color);
+    padding-right: 2.8rem;
+   
+    
+}
+.social-links a:hover{
+    font-weight: bold;
 }
