@@ -70,7 +70,7 @@ h2{
 /* @Navigation */
 .navigation{
     background-color: var(--secondry-color);
-    padding: 1rem;
+    padding: .5rem;
     border-bottom-left-radius: 3rem;
 }
 .navigation .logo{
@@ -89,7 +89,7 @@ h2{
     text-decoration: none;
     color: var(--primary-color);
     text-align: right;
-    padding: 3rem 3rem 3rem 0rem;
+    padding: 2.5rem 2.5rem 2.5rem 0rem;
 }
 .navbar li a:hover{
     font-weight: bold;
@@ -132,12 +132,12 @@ padding: 2rem;
 .ow{
     background-color: var(--secondry-color);
     border-radius: 1rem;
-    margin: 90px;
+    margin: 60px;
    
 }
 .white{
     border-radius: 1rem;
-    margin: 90px;
+    margin: 60px;
 }
 
 section .center{
@@ -163,7 +163,8 @@ display: inline;
 .social-links a{
     text-decoration: none;
     color: var(--primary-color);
-    padding-right: 2.8rem;
+    padding-right: 2.5rem;
+    
    
     
 }
