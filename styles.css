@@ -138,6 +138,9 @@ padding: 2rem;
 .white{
     border-radius: 1rem;
     margin: 60px;
+    /* border: 1px solid var(--secondry-color); */
+    box-shadow: 0px 1px 17px 9px var(--secondry-color);
+
 }
 
 section .center{
